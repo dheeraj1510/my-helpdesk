@@ -47,14 +47,14 @@
 
         <div class="row">
 
-            <div class="col-md-6" style="padding-left: 100px;">
+            <div class="col-md-6 leftconent">
                 <div class="row">
-                    <div class="col"><h3>designer webflow beginner</h3></div>
+                    <div class="col"><h3>beginner webflow designer</h3></div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <h1 id="intro"><span style="color: tomato;">Hi</span> i am Dheeraj Sharma</h1>
-                        <h1>Mini Web Project Designer</h1>
+                        <h2 class="typer" style="text-transform: capitalize;">Project Type : <span id="work"></span></h2><br>
                         <a href="#msg"><button class="btn">GET IN TOUCH</button></a>
                         <div class="bgcircle"></div>
                     </div>
@@ -263,6 +263,15 @@ add_chatinline();</script>
     <script>
         document.querySelector("#load").style.display="none";
     </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+    var typed = new Typed('#work', {
+      strings: ['Google AppScript', 'Flyers Design','Web Design', 'Advance Excel'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop:true
+    });
+  </script>
   </body>
 </html>
 
